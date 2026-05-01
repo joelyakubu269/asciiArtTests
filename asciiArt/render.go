@@ -16,4 +16,5 @@ func render(text string, banner map[rune][]string) []string {
 		result[i] = row.String() // builds value row by row and stores them
 	}
 	return result
+
 }
